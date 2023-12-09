@@ -1,12 +1,12 @@
-# min_card_app
+# mi_card_app
 
 A new Flutter project.
 
 ## Getting Started
 
-In this project we have implement Column and Row.
+In this project, we have implemented Column and Row.
 
-This project tell us the use of  columne and row and how to use different properties of these two element.
+This project tells us the use of  columns and rows and how to use different properties of these two elements.
 
 /n
 
