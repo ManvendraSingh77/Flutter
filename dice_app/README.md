@@ -4,13 +4,15 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This application we have built to use stateful widget. This is how we can make UI react and respond.
+In this, we have used 6 images and with the help of those images whenever the user touches the dice image
+it changes with a different image, and that's how a user feels the number is getting changed on clicking it.
 
-A few resources to get you started if this is your first Flutter project:
+### Screenshot
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+![dice](https://github.com/ManvendraSingh77/Flutter/assets/151988376/42f1c42f-6430-463a-9021-14810bb8a75c)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+### Video
+
+https://github.com/ManvendraSingh77/Flutter/assets/151988376/a0d9bdbb-5ff6-4ec1-b6d6-4b77b0850c90
