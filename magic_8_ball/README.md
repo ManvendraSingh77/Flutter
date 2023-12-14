@@ -1,5 +1,4 @@
 
-https://github.com/ManvendraSingh77/Flutter/assets/151988376/99f741b0-0e12-4216-ac62-7ddb8c340650
 # magic_8_ball
 
 A new Flutter project.
