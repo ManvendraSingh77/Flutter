@@ -4,13 +4,13 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+We have built a Quizz Application. The user will get a certain amount and is supposed to answer in yes/no terms only.
+Users will also be able to see whether they have answered it correctly or not.
 
-A few resources to get you started if this is your first Flutter project:
+### Screenshot
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+![Screenshot_1703016846](https://github.com/ManvendraSingh77/Flutter/assets/151988376/f5b728d2-0fb3-4530-a6f3-d8dba128ce81)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Video
+
+https://github.com/ManvendraSingh77/Flutter/assets/151988376/ede6f3a6-d8bb-4b64-a470-c71b928864c8
