@@ -32,7 +32,7 @@ class Quizz extends StatefulWidget {
 
 class _QuizzState extends State<Quizz> {
   List<Icon> tracker = [];
-
+  // Alert box when when we have reached the last question.
   _onBasicAlertPressed(context) {
     Alert(
       context: context,
@@ -43,11 +43,17 @@ class _QuizzState extends State<Quizz> {
 
   void checkAnswer(String value) {
     setState(() {
+      // to check whether we have reached the last question or not
       if (quiz.isFinished()) {
+        // Alert box when when we have reached the last question.
         _onBasicAlertPressed(context);
+        // reseting the counter starting it from question number 1.
         quiz.resetCounter();
+        // making tracker empty.
         tracker = [];
       } else if (quiz.getAnswer().toString() == value.toLowerCase()) {
+        // if our answer is correct only then we will enter this block
+        // add green check to let the user know its a correct answer
         tracker.add(
           const Icon(
             Icons.check,
@@ -56,6 +62,8 @@ class _QuizzState extends State<Quizz> {
           ),
         );
       } else {
+        // if our answer is incorrect only then we will enter this block
+        // add red close check to let the user know its a wrong answer
         tracker.add(
           const Icon(
             Icons.close,
@@ -64,6 +72,7 @@ class _QuizzState extends State<Quizz> {
           ),
         );
       }
+      // to get the next question.
       quiz.nextQuestion();
     });
   }
