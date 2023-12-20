@@ -54,4 +54,8 @@ class quizz {
   void resetCounter() {
     _counter = -1;
   }
+
+  int numberOfQuestion() {
+    return _questions.length;
+  }
 }

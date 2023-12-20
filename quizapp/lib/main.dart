@@ -32,6 +32,7 @@ class Quizz extends StatefulWidget {
 
 class _QuizzState extends State<Quizz> {
   List<Icon> tracker = [];
+  int score = 0;
   // Alert box when when we have reached the last question.
   _onBasicAlertPressed(context) {
     Alert(
@@ -51,6 +52,8 @@ class _QuizzState extends State<Quizz> {
         quiz.resetCounter();
         // making tracker empty.
         tracker = [];
+        // resetting score...
+        score = 0;
       } else if (quiz.getAnswer().toString() == value.toLowerCase()) {
         // if our answer is correct only then we will enter this block
         // add green check to let the user know its a correct answer
@@ -61,6 +64,8 @@ class _QuizzState extends State<Quizz> {
             size: 30,
           ),
         );
+        // incrementing score...
+        score++;
       } else {
         // if our answer is incorrect only then we will enter this block
         // add red close check to let the user know its a wrong answer
@@ -108,6 +113,19 @@ class _QuizzState extends State<Quizz> {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
+          Expanded(
+            child: Padding(
+              padding: const EdgeInsets.fromLTRB(20, 0, 20, 0),
+              child: Center(
+                child: Text(
+                  // to display score....
+                  'SCORE : $score/${quiz.numberOfQuestion()}',
+                  style: const TextStyle(color: Colors.white, fontSize: 20.0),
+                  textAlign: TextAlign.center,
+                ),
+              ),
+            ),
+          ),
           Expanded(
             flex: 5,
             child: Padding(
