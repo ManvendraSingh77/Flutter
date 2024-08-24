@@ -1,0 +1,1 @@
+ E:\\Flutter\ Code\\Flutter\\buddy_dating\\.dart_tool\\flutter_build\\6e226f05de9210ba24090ef4d99bd68e\\native_assets.yaml: 
